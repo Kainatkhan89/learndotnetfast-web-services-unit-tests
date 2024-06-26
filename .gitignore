@@ -1,0 +1,22 @@
+﻿# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.Generated.cs
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Others
+*.DS_Store
