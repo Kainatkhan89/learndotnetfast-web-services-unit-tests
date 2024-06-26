@@ -2,7 +2,6 @@
 using learndotnetfast_web_services.DTOs;
 using learndotnetfast_web_services.Services.Progress;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Xunit;
 

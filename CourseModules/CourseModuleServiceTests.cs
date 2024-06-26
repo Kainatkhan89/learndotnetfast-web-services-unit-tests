@@ -30,14 +30,10 @@ namespace web_services_unit_tests.CourseModules
                 .ForEach(b => _fixture.Behaviors.Remove(b));
             _fixture.Behaviors.Add(new OmitOnRecursionBehavior());
 
-            // Initialize AutoMapper configuration
+            // Initialize AutoMapper configuration using MappingProfile
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<CourseModule, CourseModuleDTO>();
-                cfg.CreateMap<CourseModuleDTO, CourseModule>();
-                cfg.CreateMap<Tutorial, TutorialDTO>();
-                cfg.CreateMap<TutorialDTO, Tutorial>();
-                // Add other mappings if needed
+                cfg.AddProfile<MappingProfile>();
             });
             _mapper = config.CreateMapper();
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("web-services-unit-tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f37bf05264953d3718d0d76506c7e66f509b002")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aca2e512cac3f633d500a39ca7618297aa39f93")]
 [assembly: System.Reflection.AssemblyProductAttribute("web-services-unit-tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("web-services-unit-tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
