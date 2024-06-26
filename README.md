@@ -16,7 +16,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/unit-test-project.git
+   git clone https://github.com/Kainatkhan89/learndotnetfast-web-services.git
    cd unit-test-project
 2. **Install dependencies**:
     Ensure you have the .NET SDK installed. You can download it from the .NET website.
